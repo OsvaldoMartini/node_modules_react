@@ -1,0 +1,1 @@
+{"ast":null,"code":"var uniqueBaseId = \"id-\" + Date.now();\nvar uuidCount = 0;\nexport function _TESTING_ONLY_normalize_keys() {\n  uniqueBaseId = \"id\";\n  uuidCount = 0;\n}\nexport function generateKey() {\n  return uniqueBaseId + \"-\" + uuidCount++;\n}","map":null,"metadata":{},"sourceType":"module"}

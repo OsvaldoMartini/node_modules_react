@@ -1,0 +1,1 @@
+{"ast":null,"code":"/* eslint-disable node/no-deprecated-api */\nmodule.exports = function (size) {\n  if (typeof Buffer.allocUnsafe === 'function') {\n    try {\n      return Buffer.allocUnsafe(size);\n    } catch (e) {\n      return new Buffer(size);\n    }\n  }\n\n  return new Buffer(size);\n};","map":null,"metadata":{},"sourceType":"script"}

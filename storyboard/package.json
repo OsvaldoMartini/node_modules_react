@@ -1,0 +1,56 @@
+{
+  "_from": "storyboard@^3.1.4",
+  "_id": "storyboard@3.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-YkWhyz6IxvL/+kN9iMtcw3XVppqY/J8wBRDMpKxnkMniD/QKsKnHPMsxloob2B2+ONwASQPbzZkNXeyY2/kXwg==",
+  "_location": "/storyboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "storyboard@^3.1.4",
+    "name": "storyboard",
+    "escapedName": "storyboard",
+    "rawSpec": "^3.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^3.1.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/storyboard/-/storyboard-3.1.4.tgz",
+  "_shasum": "f39a908f168541ffae2af6ed8a06f27e0eed12e2",
+  "_spec": "storyboard@^3.1.4",
+  "_where": "D:\\Projetos\\PPMTool-React-Client",
+  "author": {
+    "name": "Guillermo Grau Panea"
+  },
+  "bugs": {
+    "url": "https://github.com/guigrpa/storyboard/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "storyboard-core": "^3.1.1"
+  },
+  "deprecated": false,
+  "description": "End-to-end, hierarchical, real-time, colorful logs and stories",
+  "homepage": "https://github.com/guigrpa/storyboard#readme",
+  "keywords": [
+    "log",
+    "logging",
+    "websockets",
+    "console",
+    "isomorphic"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "storyboard",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guigrpa/storyboard.git"
+  },
+  "scripts": {
+    "compile": "rm -rf lib && ../../node_modules/.bin/babel -d lib src && cp src/index.js.flow lib"
+  },
+  "version": "3.1.4"
+}

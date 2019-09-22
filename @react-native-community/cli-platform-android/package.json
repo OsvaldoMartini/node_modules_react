@@ -1,0 +1,46 @@
+{
+  "_from": "@react-native-community/cli-platform-android@^2.0.1",
+  "_id": "@react-native-community/cli-platform-android@2.5.0",
+  "_inBundle": false,
+  "_integrity": "sha512-Rh6FvaaUKIDbqcLfuo62GuT8aI38Qkya+3NyKRPhD265QeAGK00JGXl/tV2c2qCZT+QqMZ+/S4EFRoABZRHmyA==",
+  "_location": "/@react-native-community/cli-platform-android",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "@react-native-community/cli-platform-android@^2.0.1",
+    "name": "@react-native-community/cli-platform-android",
+    "escapedName": "@react-native-community%2fcli-platform-android",
+    "scope": "@react-native-community",
+    "rawSpec": "^2.0.1",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.1"
+  },
+  "_requiredBy": [
+    "/react-native",
+    "/react-native/@react-native-community/cli"
+  ],
+  "_resolved": "https://registry.npmjs.org/@react-native-community/cli-platform-android/-/cli-platform-android-2.5.0.tgz",
+  "_shasum": "36071ebc07a1ef455eca1061d8b3d51f48ed73a6",
+  "_spec": "@react-native-community/cli-platform-android@^2.0.1",
+  "_where": "D:\\Projetos\\PPMTool-React-Client\\node_modules\\react-native",
+  "bundleDependencies": false,
+  "dependencies": {
+    "@react-native-community/cli-tools": "^2.4.1",
+    "chalk": "^2.4.2",
+    "jetifier": "^1.6.2",
+    "logkitty": "^0.5.0",
+    "slash": "^2.0.0",
+    "xmldoc": "^0.4.0"
+  },
+  "deprecated": false,
+  "files": [
+    "build",
+    "native_modules.gradle"
+  ],
+  "gitHead": "f2b16b12743276d3f6bc1feef43a1e2a8f162116",
+  "license": "MIT",
+  "main": "build/index.js",
+  "name": "@react-native-community/cli-platform-android",
+  "version": "2.5.0"
+}

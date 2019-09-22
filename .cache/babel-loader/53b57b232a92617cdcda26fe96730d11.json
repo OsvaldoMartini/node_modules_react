@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Dimensions } from 'react-native';\n\nconst _Dimensions$get = Dimensions.get('window'),\n      height = _Dimensions$get.height,\n      width = _Dimensions$get.width;\n\nexport const DIMENSIONS = {\n  height,\n  width\n};","map":null,"metadata":{},"sourceType":"module"}

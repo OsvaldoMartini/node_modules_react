@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function getChildRouter(router, routeName) {\n  if (router.childRouters && router.childRouters[routeName]) {\n    return router.childRouters[routeName];\n  }\n\n  var Component = router.getComponentForRouteName(routeName);\n  return Component.router;\n}","map":null,"metadata":{},"sourceType":"module"}

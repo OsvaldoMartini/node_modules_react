@@ -1,0 +1,60 @@
+{
+  "_from": "storyboard-listener-console@^3.1.4",
+  "_id": "storyboard-listener-console@3.1.4",
+  "_inBundle": false,
+  "_integrity": "sha512-zP2x0XKXHXGYrz4/RS4kxMp/4JqEvREV3rdkfbb6uqGld9gPKNqAdRDLQPN7cJRycTipTt+qew7RFGDTIVSIVA==",
+  "_location": "/storyboard-listener-console",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "storyboard-listener-console@^3.1.4",
+    "name": "storyboard-listener-console",
+    "escapedName": "storyboard-listener-console",
+    "rawSpec": "^3.1.4",
+    "saveSpec": null,
+    "fetchSpec": "^3.1.4"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/storyboard-listener-console/-/storyboard-listener-console-3.1.4.tgz",
+  "_shasum": "165c23629721a0327b181d4b926bc2d9787eb661",
+  "_spec": "storyboard-listener-console@^3.1.4",
+  "_where": "D:\\Projetos\\PPMTool-React-Client",
+  "author": {
+    "name": "Guillermo Grau Panea"
+  },
+  "bugs": {
+    "url": "https://github.com/guigrpa/storyboard/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "timm": "^1.6.1"
+  },
+  "deprecated": false,
+  "description": "End-to-end, hierarchical, real-time, colorful logs and stories",
+  "devDependencies": {
+    "bluebird": "3.4.7",
+    "storyboard": "^3.1.1"
+  },
+  "homepage": "https://github.com/guigrpa/storyboard#readme",
+  "keywords": [
+    "log",
+    "logging",
+    "websockets",
+    "console",
+    "isomorphic"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "storyboard-listener-console",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guigrpa/storyboard.git"
+  },
+  "scripts": {
+    "compile": "rm -rf lib && ../../node_modules/.bin/babel -d lib src"
+  },
+  "version": "3.1.4"
+}

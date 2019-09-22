@@ -1,0 +1,1 @@
+{"ast":null,"code":"import _objectSpread from \"@babel/runtime/helpers/objectSpread\";\nexport var JUMP_TO = 'Navigation/JUMP_TO';\nexport var jumpTo = function jumpTo(payload) {\n  return _objectSpread({\n    type: JUMP_TO,\n    preserveFocus: true\n  }, payload);\n};","map":null,"metadata":{},"sourceType":"module"}

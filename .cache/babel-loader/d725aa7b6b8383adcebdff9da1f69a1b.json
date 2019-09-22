@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from 'react';\nimport { View } from 'react-native';\nexport default View;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nvar createReport = require('./mainBrowser').default;\n\nmodule.exports = createReport;\nmodule.exports.default = createReport;","map":null,"metadata":{},"sourceType":"script"}

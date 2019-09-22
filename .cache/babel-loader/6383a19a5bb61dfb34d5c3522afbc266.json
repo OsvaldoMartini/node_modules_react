@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict';\n\nconst u = require('universalify').fromCallback;\n\nconst rimraf = require('./rimraf');\n\nmodule.exports = {\n  remove: u(rimraf),\n  removeSync: rimraf.sync\n};","map":null,"metadata":{},"sourceType":"script"}

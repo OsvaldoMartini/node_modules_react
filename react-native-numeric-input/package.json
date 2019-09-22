@@ -1,0 +1,69 @@
+{
+  "_from": "react-native-numeric-input",
+  "_id": "react-native-numeric-input@1.8.1",
+  "_inBundle": false,
+  "_integrity": "sha512-uakgFW+7QcZJYBfzITd25PH5HvLxZxnTRfsL9dqqoM5sm+2lRBq1kjbuM2ziUmqKkbVETZe6cLdISjfOtzWL+Q==",
+  "_location": "/react-native-numeric-input",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-numeric-input",
+    "name": "react-native-numeric-input",
+    "escapedName": "react-native-numeric-input",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-numeric-input/-/react-native-numeric-input-1.8.1.tgz",
+  "_shasum": "56f74bd002a6e257c776871ee17eeaeb42720419",
+  "_spec": "react-native-numeric-input",
+  "_where": "D:\\Projetos\\PPMTool-React-Client",
+  "author": {
+    "name": "omri himelbrand",
+    "email": "himelbrand@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/himelbrand/react-native-numeric-input/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "^15.6.1",
+    "react-native-pixel-perfect": "^1.0.1"
+  },
+  "deprecated": false,
+  "description": "a stylish numeric input for react native",
+  "homepage": "https://github.com/himelbrand/react-native-numeric-input",
+  "keywords": [
+    "react-native",
+    "react-component",
+    "react-native-component",
+    "react",
+    "mobile",
+    "ios",
+    "android",
+    "number-input",
+    "numeric-input",
+    "number",
+    "input",
+    "numeric"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-numeric-input",
+  "peerDependencies": {
+    "react-native-vector-icons": "^4.*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/himelbrand/react-native-numeric-input.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.8.1"
+}

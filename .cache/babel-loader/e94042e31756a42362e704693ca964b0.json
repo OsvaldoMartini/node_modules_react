@@ -1,0 +1,1 @@
+{"ast":null,"code":"'use strict'; // simple mutable assign\n\nfunction assign() {\n  const args = [].slice.call(arguments).filter(i => i);\n  const dest = args.shift();\n  args.forEach(src => {\n    Object.keys(src).forEach(key => {\n      dest[key] = src[key];\n    });\n  });\n  return dest;\n}\n\nmodule.exports = assign;","map":null,"metadata":{},"sourceType":"script"}

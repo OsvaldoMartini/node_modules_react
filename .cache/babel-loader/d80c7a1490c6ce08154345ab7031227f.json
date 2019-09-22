@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function clamp(min, value, max) {\n  if (value < min) {\n    return min;\n  }\n\n  if (value > max) {\n    return max;\n  }\n\n  return value;\n}","map":null,"metadata":{},"sourceType":"module"}
